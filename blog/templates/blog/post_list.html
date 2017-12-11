@@ -6,6 +6,8 @@
 		<div>
 			<h1><a href="">Djanog Boys blog</a></h1>
 		</div>
-		{{ posts }}
+		{% for post in posts %}
+			{{ post }}
+		{% endfor %}
 	</body>
 </html>
