@@ -1,5 +1,5 @@
 from django.db import models
-from djaong.utils import timezone
+from django.utils import timezone
 
 # Create your models here.
 
